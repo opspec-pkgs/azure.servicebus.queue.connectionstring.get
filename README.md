@@ -28,20 +28,20 @@ opctl run github.com/opspec-pkgs/azure.servicebus.queue.connectionstring.get#1.0
 
 ```yaml
 op:
-pkg: { ref: github.com/opspec-pkgs/azure.servicebus.queue.connectionstring.get#1.0.1 }
-inputs:
-    authRule:
+  pkg: { ref: github.com/opspec-pkgs/azure.servicebus.queue.connectionstring.get#1.0.1 }
+  inputs:
+    subscriptionId:
     loginId:
     loginSecret:
     loginTenantId:
-    namespace:
+    authRule:
     queue:
+    namespace:
     resourceGroup:
-    subscriptionId:
     # params w/ default
     authRuleKey:
     loginType:
-outputs:
+  outputs:
     connectionString:
 ```
 

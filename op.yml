@@ -1,6 +1,5 @@
 name: github.com/opspec-pkgs/azure.servicebus.queue.connectionstring.get
 description: gets an azure servicebus queue connection string
-icon: /icon.svg
 inputs:
   subscriptionId:
     string:
